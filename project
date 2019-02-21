@@ -1,0 +1,26 @@
+public class Temperatura {
+
+    
+    private static boolean isTemperaturePositive(int temperature){
+
+        return temperature > 0;
+
+    }
+
+
+    public static void main(String[] args){
+
+        int positive = 10;
+
+        if(isTemperaturePositive(positive)){
+            System.out.println("temperatura " + positive + " jest dodatnia");
+        }
+        else{
+            System.out.println("temperatura " + positive + " nie jest dodatnia");
+        }
+
+
+    }
+
+
+}
